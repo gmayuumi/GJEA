@@ -1,0 +1,102 @@
+.fade-in-element {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.fade-in-element.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #111827; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: opacity 0.5s ease-out, visibility 0.5s;
+}
+#preloader.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+.spinner {
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid #3b82f6; 
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.tab-btn {
+    transition: all 0.3s ease;
+}
+.tab-btn.active-tab {
+    color: #3b82f6; 
+    border-color: #3b82f6;
+}
+.tab-panel {
+    transition: opacity 0.4s ease-out;
+}
+
+.service-card ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.service-card li strong {
+    color: #d1d5db; 
+}
+.service-card li span {
+    font-size: 0.8rem;
+}
+.service-card ul ul {
+    padding-left: 1.25rem; 
+    margin-top: 0.25rem; 
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.tab-container {
+    scrollbar-width: none; 
+}
+.tab-container::-webkit-scrollbar {
+    display: none; 
+}
+
+#whatsapp-fab {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 40;
+    transition: transform 0.3s ease;
+}
+#whatsapp-fab:hover {
+    transform: scale(1.1);
+    animation: none; 
+}
+
+.faq-icon {
+    transition: transform 0.3s ease-out;
+}
+
+.dark-map {
+     filter: grayscale(100%) invert(90%) contrast(80%);
+}
+
+.logo-glow {
+    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.6));
+    transition: filter 0.3s ease;
+}
+.logo-glow:hover {
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
+}
