@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GJ Estética Automotiva - Detalhamento Premium</title>
     
-    <!-- Tailwind CSS -->
+    
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- Fonts -->
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
 
-    <!-- CSS Personalizado -->
+    
     <link rel="stylesheet" href="style.css">
 
-    <!-- Tailwind Configuration -->
+    
     <script>
         tailwind.config = {
             theme: {
@@ -60,21 +60,21 @@
 </head>
 <body class="bg-black text-gray-300 font-sans antialiased bg-grid-pattern">
 
-    <!-- Preloader -->
+    
     <div id="preloader">
         <div class="spinner"></div>
     </div>
 
-    <!-- Header -->
+    
     <header class="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-md shadow-lg">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <!-- Logo -->
+            
             <a href="#" aria-label="GJ Estética Automotiva Home">
                 <img src="https://i.ibb.co/PZ3n4y9K/logo-gj.png" alt="GJ Estética Automotiva Logo" class="h-12 w-auto logo-glow"
                      onerror="this.src='https://placehold.co/150x40/000000/FFFFFF?text=GJ+Estética'; this.onerror=null;">
             </a>
             
-            <!-- Desktop Nav -->
+            
             <nav class="hidden lg:flex space-x-8">
                 <a href="#inicio" class="text-gray-300 hover:text-blue-500 transition duration-300">Início</a>
                 <a href="#sobre" class="text-gray-300 hover:text-blue-500 transition duration-300">Sobre</a>
@@ -87,12 +87,12 @@
                 <a href="#contato" class="text-gray-300 hover:text-blue-500 transition duration-300">Contato</a>
             </nav>
 
-            <!-- CTA Button -->
+           
             <a href="https://api.whatsapp.com/send?phone=5511963645858&text=Olá!%20Gostaria%20de%20um%20orçamento%20para%20estética%20automotiva." target="_blank" class="hidden lg:block bg-blue-600 text-white px-5 py-2 rounded-lg font-semibold hover:bg-blue-700 transition duration-300">
                 Fale Conosco
             </a>
 
-            <!-- Mobile Menu Button -->
+           
             <button id="menu-btn" class="lg:hidden text-white z-50">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -100,7 +100,7 @@
             </button>
         </div>
 
-        <!-- Mobile Menu Overlay -->
+        
         <div id="mobile-menu" class="hidden lg:hidden absolute top-0 left-0 right-0 min-h-screen bg-black/95 flex flex-col items-center justify-center space-y-6">
             <a href="#inicio" class="text-2xl text-gray-300 hover:text-blue-500 transition duration-300">Início</a>
             <a href="#sobre" class="text-2xl text-gray-300 hover:text-blue-500 transition duration-300">Sobre</a>
@@ -118,7 +118,7 @@
     </header>
 
     <main>
-        <!-- Hero Section -->
+       
         <section id="inicio" class="relative min-h-screen flex items-center overflow-hidden">
             <div class="absolute inset-0 z-0">
                 <img src="https://images.pexels.com/photos/19315071/pexels-photo-19315071.jpeg" 
@@ -176,7 +176,7 @@
             </div>
         </section>
 
-        <!-- Sobre Section -->
+      
         <section id="sobre" class="py-20 lg:py-32 bg-brand-dark-900 bg-grid-pattern">
             <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
                 <div class="fade-in-element">
@@ -200,7 +200,7 @@
             </div>
         </section>
 
-        <!-- Serviços Section -->
+        
         <section id="servicos" class="py-20 lg:py-32 bg-black bg-grid-pattern">
             <div class="container mx-auto px-6">
                 <div class="text-center max-w-3xl mx-auto mb-12">
@@ -228,10 +228,10 @@
                 </div>
 
                 <div class="relative">
-                    <!-- Tab 1: Veiculares -->
+                    
                     <div id="veiculares" class="tab-panel opacity-100">
                         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                            <!-- Card -->
+                            
                             <div class="service-card bg-brand-dark-800 p-8 rounded-lg shadow-xl border border-gray-700/50 transition-all duration-300 hover:border-blue-500/50 hover:shadow-blue-500/20">
                                 <div class="w-12 h-12 bg-blue-600/20 text-blue-500 rounded-full flex items-center justify-center mb-5">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.898 20.622L16.5 21.75l-.398-1.128a3.375 3.375 0 00-2.455-2.456L12.75 18l1.128-.398a3.375 3.375 0 002.455-2.456L16.5 14.25l.398 1.128a3.375 3.375 0 002.456 2.456L20.25 18l-1.128.398a3.375 3.375 0 00-2.456 2.456z" /></svg>
@@ -243,7 +243,7 @@
                                     <li><strong>Lavagem Detalhada</strong> <span class="text-gray-500 block">(Hatch, Sedan, SUV)</span></li>
                                 </ul>
                             </div>
-                            <!-- Card -->
+                          
                             <div class="service-card bg-brand-dark-800 p-8 rounded-lg shadow-xl border border-gray-700/50 transition-all duration-300 hover:border-blue-500/50 hover:shadow-blue-500/20">
                                 <div class="w-12 h-12 bg-blue-600/20 text-blue-500 rounded-full flex items-center justify-center mb-5">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.898 20.622L16.5 21.75l-.398-1.128a3.375 3.375 0 00-2.455-2.456L12.75 18l1.128-.398a3.375 3.375 0 002.455-2.456L16.5 14.25l.398 1.128a3.375 3.375 0 002.456 2.456L20.25 18l-1.128.398a3.375 3.375 0 00-2.456 2.456z" /></svg>
@@ -255,7 +255,7 @@
                                     <li><strong>Lavagem Detalhada</strong></li>
                                 </ul>
                             </div>
-                            <!-- Card -->
+                          
                             <div class="service-card bg-brand-dark-800 p-8 rounded-lg shadow-xl border border-gray-700/50 transition-all duration-300 hover:border-blue-500/50 hover:shadow-blue-500/20">
                                 <div class="w-12 h-12 bg-blue-600/20 text-blue-500 rounded-full flex items-center justify-center mb-5">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.898 20.622L16.5 21.75l-.398-1.128a3.375 3.375 0 00-2.455-2.456L12.75 18l1.128-.398a3.375 3.375 0 002.455-2.456L16.5 14.25l.398 1.128a3.375 3.375 0 002.456 2.456L20.25 18l-1.128.398a3.375 3.375 0 00-2.456 2.456z" /></svg>
@@ -270,10 +270,10 @@
                         </div>
                     </div>
 
-                    <!-- Tab 2: Higienização -->
+                  
                     <div id="higienizacao" class="tab-panel opacity-0 hidden">
                         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
-                            <!-- Card -->
+                           
                             <div class="service-card bg-brand-dark-800 p-8 rounded-lg shadow-xl border border-gray-700/50 transition-all duration-300 hover:border-blue-500/50 hover:shadow-blue-500/20">
                                 <div class="w-12 h-12 bg-blue-600/20 text-blue-500 rounded-full flex items-center justify-center mb-5">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.898 20.622L16.5 21.75l-.398-1.128a3.375 3.375 0 00-2.455-2.456L12.75 18l1.128-.398a3.375 3.375 0 002.455-2.456L16.5 14.25l.398 1.128a3.375 3.375 0 002.456 2.456L20.25 18l-1.128.398a3.375 3.375 0 00-2.456 2.456z" /></svg>
@@ -294,7 +294,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <!-- Card -->
+                            
                             <div class="service-card bg-brand-dark-800 p-8 rounded-lg shadow-xl border border-gray-700/50 transition-all duration-300 hover:border-blue-500/50 hover:shadow-blue-500/20">
                                 <div class="w-12 h-12 bg-blue-600/20 text-blue-500 rounded-full flex items-center justify-center mb-5">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.898 20.622L16.5 21.75l-.398-1.128a3.375 3.375 0 00-2.455-2.456L12.75 18l1.128-.398a3.375 3.375 0 002.455-2.456L16.5 14.25l.398 1.128a3.375 3.375 0 002.456 2.456L20.25 18l-1.128.398a3.375 3.375 0 00-2.456 2.456z" /></svg>
@@ -324,10 +324,10 @@
                         </div>
                     </div>
 
-                    <!-- Tab 3: Planos -->
+                   
                     <div id="planos" class="tab-panel opacity-0 hidden">
                         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                            <!-- Card -->
+                           
                             <div class="service-card bg-brand-dark-800 p-8 rounded-lg shadow-xl border border-gray-700/50 transition-all duration-300 hover:border-blue-500/50 hover:shadow-blue-500/20">
                                 <div class="w-12 h-12 bg-blue-600/20 text-blue-500 rounded-full flex items-center justify-center mb-5">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.898 20.622L16.5 21.75l-.398-1.128a3.375 3.375 0 00-2.455-2.456L12.75 18l1.128-.398a3.375 3.375 0 002.455-2.456L16.5 14.25l.398 1.128a3.375 3.375 0 002.456 2.456L20.25 18l-1.128.398a3.375 3.375 0 00-2.456 2.456z" /></svg>
@@ -349,7 +349,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <!-- Card -->
+                            
                             <div class="service-card bg-brand-dark-800 p-8 rounded-lg shadow-xl border border-gray-700/50 transition-all duration-300 hover:border-blue-500/50 hover:shadow-blue-500/20">
                                 <div class="w-12 h-12 bg-blue-600/20 text-blue-500 rounded-full flex items-center justify-center mb-5">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.898 20.622L16.5 21.75l-.398-1.128a3.375 3.375 0 00-2.455-2.456L12.75 18l1.128-.398a3.375 3.375 0 002.455-2.456L16.5 14.25l.398 1.128a3.375 3.375 0 002.456 2.456L20.25 18l-1.128.398a3.375 3.375 0 00-2.456 2.456z" /></svg>
@@ -371,7 +371,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <!-- Card -->
+                           
                             <div class="service-card bg-brand-dark-800 p-8 rounded-lg shadow-xl border border-gray-700/50 transition-all duration-300 hover:border-blue-500/50 hover:shadow-blue-500/20">
                                 <div class="w-12 h-12 bg-blue-600/20 text-blue-500 rounded-full flex items-center justify-center mb-5">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.898 20.622L16.5 21.75l-.398-1.128a3.375 3.375 0 00-2.455-2.456L12.75 18l1.128-.398a3.375 3.375 0 002.455-2.456L16.5 14.25l.398 1.128a3.375 3.375 0 002.456 2.456L20.25 18l-1.128.398a3.375 3.375 0 00-2.456 2.456z" /></svg>
@@ -404,10 +404,10 @@
             </div>
         </section>
         
-        <!-- Diferenciais Section -->
+        
         <section id="diferenciais" class="py-20 lg:py-32 bg-brand-dark-900 bg-grid-pattern">
             <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-                <!-- Text -->
+                
                 <div class="fade-in-element">
                     <span class="text-blue-500 font-semibold uppercase">Nossa Promessa</span>
                     <h2 class="text-3xl md:text-4xl font-bold text-white mt-3 mb-6">
@@ -459,7 +459,7 @@ Trabalhamos exclusivamente com produtos premium, reconhecidos e líderes no merc
                         </a>
                     </div>
                 </div>
-                <!-- Image -->
+                
                 <div class="fade-in-element" style="transition-delay: 200ms;">
                     <img src="https://images.pexels.com/photos/2631489/pexels-photo-2631489.jpeg" 
                          alt="Aplicação de vitrificação cerâmica em carro" 
@@ -469,10 +469,10 @@ Trabalhamos exclusivamente com produtos premium, reconhecidos e líderes no merc
             </div>
         </section>
 
-        <!-- Galeria Section -->
+        
         <section id="galeria" class="py-20 lg:py-32 bg-black bg-grid-pattern">
             <div class="container mx-auto px-6">
-                <!-- Header -->
+                
                 <div class="text-center max-w-3xl mx-auto mb-16">
                     <span class="text-blue-500 font-semibold uppercase">Nosso Portfólio</span>
                     <h2 class="text-3xl md:text-4xl font-bold text-white mt-3 mb-4">
@@ -483,9 +483,9 @@ Trabalhamos exclusivamente com produtos premium, reconhecidos e líderes no merc
                     </p>
                 </div>
 
-                <!-- Gallery Grid (Comparação Antes/Depois) -->
+                
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                    <!-- Item 1 -->
+                   
                     <div class="relative group overflow-hidden rounded-lg shadow-lg fade-in-element">
                         <img src="ant4.jpg" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt="Pintura de carro antes do polimento">
                         <div class="absolute bottom-0 left-0 bg-black/70 text-white px-3 py-1 rounded-tr-lg">
@@ -499,7 +499,7 @@ Trabalhamos exclusivamente com produtos premium, reconhecidos e líderes no merc
                         </div>
                     </div>
 
-                    <!-- Item 2 -->
+                 
                     <div class="relative group overflow-hidden rounded-lg shadow-lg fade-in-element">
                         <img src="ant3.jpg" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt="Carro antes da limpeza">
                         <div class="absolute bottom-0 left-0 bg-black/70 text-white px-3 py-1 rounded-tr-lg">
@@ -513,7 +513,7 @@ Trabalhamos exclusivamente com produtos premium, reconhecidos e líderes no merc
                         </div>
                     </div>
 
-                    <!-- Item 3 -->
+                   
                     <div class="relative group overflow-hidden rounded-lg shadow-lg fade-in-element">
                         <img src="ant5.jpg" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt="Pintura de carro antes do polimento">
                         <div class="absolute bottom-0 left-0 bg-black/70 text-white px-3 py-1 rounded-tr-lg">
@@ -527,7 +527,7 @@ Trabalhamos exclusivamente com produtos premium, reconhecidos e líderes no merc
                         </div>
                     </div>
 
-                    <!-- Item 4 -->
+                   
                     <div class="relative group overflow-hidden rounded-lg shadow-lg fade-in-element">
                         <img src="ant1.jpg" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" alt="Pintura de carro antes do polimento">
                         <div class="absolute bottom-0 left-0 bg-black/70 text-white px-3 py-1 rounded-tr-lg">
@@ -550,7 +550,7 @@ Trabalhamos exclusivamente com produtos premium, reconhecidos e líderes no merc
             </div>
         </section>
 
-        <!-- Depoimentos Section -->
+        
         <section id="depoimentos" class="py-20 lg:py-32 bg-brand-dark-900 bg-grid-pattern">
             <div class="container mx-auto px-6">
                  
@@ -562,7 +562,7 @@ Trabalhamos exclusivamente com produtos premium, reconhecidos e líderes no merc
                 </div>
                 
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <!-- Depoimento 1 -->
+                   
                     <div class="bg-brand-dark-800 p-8 rounded-lg shadow-xl border border-gray-700/50 fade-in-element">
                         <p class="text-lg italic text-gray-300">
                             "Serviço inacreditável. Meu carro saiu parecendo mais novo do que quando comprei na concessionária. O nível de detalhe é absurdo. Recomendo 100%!"
@@ -572,7 +572,7 @@ Trabalhamos exclusivamente com produtos premium, reconhecidos e líderes no merc
                             <p class="text-sm text-blue-500">BMW 320i</p>
                         </div>
                     </div>
-                    <!-- Depoimento 2 -->
+                   
                     <div class="bg-brand-dark-800 p-8 rounded-lg shadow-xl border border-gray-700/50 fade-in-element" style="transition-delay: 150ms;">
                         <p class="text-lg italic text-gray-300">
                             "Fiz a vitrificação e a higienização interna. O atendimento foi nota 10 e o resultado superou todas as minhas expectativas. O carro ficou protegido e com um brilho fantástico."
@@ -582,7 +582,7 @@ Trabalhamos exclusivamente com produtos premium, reconhecidos e líderes no merc
                             <p class="text-sm text-blue-500">Jeep Compass</p>
                         </div>
                     </div>
-                    <!-- Depoimento 3 -->
+                    
                     <div class="bg-brand-dark-800 p-8 rounded-lg shadow-xl border border-gray-700/50 fade-in-element" style="transition-delay: 300ms;">
                         <p class="text-lg italic text-gray-300">
                             "Profissionais de confiança. Deixei meu carro clássico para um polimento técnico e fiquei impressionado com o cuidado e a técnica. A pintura foi revitalizada sem danos."
@@ -602,7 +602,7 @@ Trabalhamos exclusivamente com produtos premium, reconhecidos e líderes no merc
             </div>
         </section>
 
-        <!-- Redes Sociais Section -->
+       
         <section id="redes-sociais" class="py-20 lg:py-32 bg-black bg-grid-pattern">
             <div class="container mx-auto px-6">
                 <div class="text-center max-w-3xl mx-auto mb-16 fade-in-element">
@@ -616,21 +616,21 @@ Trabalhamos exclusivamente com produtos premium, reconhecidos e líderes no merc
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-                    <!-- Instagram -->
+                   
                     <a href="https://www.instagram.com/gj_estetica?igsh=NXV2YWsxMHFibDdk&utm_source=qr" target="_blank" class="block bg-brand-dark-800 p-8 rounded-lg text-center shadow-xl border border-gray-700/50 transition-all duration-300 hover:border-blue-500/50 hover:shadow-blue-500/20 hover:-translate-y-2 fade-in-element" style="transition-delay: 100ms;">
                         <img src="https://i.ibb.co/TBkRRW0y/INSTA.webp" alt="Instagram Logo" class="w-12 h-12 mx-auto mb-4">
                         <h3 class="text-2xl font-semibold text-white">Instagram</h3>
                         <p class="text-blue-500 font-semibold mt-2">Seguir Agora</p>
                     </a>
 
-                    <!-- TikTok -->
+                    
                     <a href="https://www.tiktok.com/@gjestetica_car?_r=1&_t=ZS-91NHSYt9wW1" target="_blank" class="block bg-brand-dark-800 p-8 rounded-lg text-center shadow-xl border border-gray-700/50 transition-all duration-300 hover:border-blue-500/50 hover:shadow-blue-500/20 hover:-translate-y-2 fade-in-element" style="transition-delay: 200ms;">
                         <img src="https://i.ibb.co/FkYGwJSX/TIKTOK.png" alt="TikTok Logo" class="w-12 h-12 mx-auto mb-4">
                         <h3 class="text-2xl font-semibold text-white">TikTok</h3>
                         <p class="text-blue-500 font-semibold mt-2">Assistir Agora</p>
                     </a>
 
-                    <!-- Facebook -->
+                    
                     <a href="https://www.facebook.com/share/1A34iCjG6v/?mibextid=wwXIfr" target="_blank" class="block bg-brand-dark-800 p-8 rounded-lg text-center shadow-xl border border-gray-700/50 transition-all duration-300 hover:border-blue-500/50 hover:shadow-blue-500/20 hover:-translate-y-2 fade-in-element" style="transition-delay: 300ms;">
                         <img src="https://i.ibb.co/yF1wVhLQ/FACEBOOK.png" alt="Facebook Logo" class="w-12 h-12 mx-auto mb-4">
                         <h3 class="text-2xl font-semibold text-white">Facebook</h3>
@@ -641,7 +641,7 @@ Trabalhamos exclusivamente com produtos premium, reconhecidos e líderes no merc
         </section>
 
 
-        <!-- Shopee Section -->
+        
         <section id="shopee" class="py-20 lg:py-24 bg-brand-dark-900">
             <div class="container mx-auto px-6 text-center">
                 <div class="max-w-3xl mx-auto fade-in-element">
@@ -659,7 +659,7 @@ Trabalhamos exclusivamente com produtos premium, reconhecidos e líderes no merc
             </div>
         </section>
 
-        <!-- FAQ Section -->
+       
         <section id="faq" class="py-20 lg:py-32 bg-black bg-grid-pattern">
             <div class="container mx-auto px-6">
                 <div class="text-center max-w-3xl mx-auto mb-16 fade-in-element">
@@ -673,7 +673,7 @@ Trabalhamos exclusivamente com produtos premium, reconhecidos e líderes no merc
                 </div>
 
                 <div class="max-w-3xl mx-auto space-y-4 fade-in-element" style="transition-delay: 200ms;">
-                    <!-- FAQ 1 -->
+                    
                     <div class="bg-brand-dark-800 rounded-lg border border-gray-700/50 overflow-hidden">
                         <button class="faq-toggle flex justify-between items-center w-full p-6 text-left focus:outline-none">
                             <span class="text-lg font-semibold text-white">Quanto tempo demora um serviço?</span>
@@ -686,7 +686,6 @@ Trabalhamos exclusivamente com produtos premium, reconhecidos e líderes no merc
                         </div>
                     </div>
 
-                    <!-- FAQ 2 -->
                     <div class="bg-brand-dark-800 rounded-lg border border-gray-700/50 overflow-hidden">
                         <button class="faq-toggle flex justify-between items-center w-full p-6 text-left focus:outline-none">
                             <span class="text-lg font-semibold text-white">Preciso agendar com antecedência?</span>
@@ -699,7 +698,6 @@ Trabalhamos exclusivamente com produtos premium, reconhecidos e líderes no merc
                         </div>
                     </div>
 
-                    <!-- FAQ 3 -->
                     <div class="bg-brand-dark-800 rounded-lg border border-gray-700/50 overflow-hidden">
                         <button class="faq-toggle flex justify-between items-center w-full p-6 text-left focus:outline-none">
                             <span class="text-lg font-semibold text-white">Qual a diferença entre Polimento e Vitrificação?</span>
@@ -712,7 +710,6 @@ Trabalhamos exclusivamente com produtos premium, reconhecidos e líderes no merc
                         </div>
                     </div>
 
-                    <!-- FAQ 4 -->
                     <div class="bg-brand-dark-800 rounded-lg border border-gray-700/50 overflow-hidden">
                         <button class="faq-toggle flex justify-between items-center w-full p-6 text-left focus:outline-none">
                             <span class="text-lg font-semibold text-white">Vocês atendem em domicílio?</span>
@@ -725,7 +722,6 @@ Trabalhamos exclusivamente com produtos premium, reconhecidos e líderes no merc
                         </div>
                     </div>
 
-                    <!-- FAQ 5 -->
                     <div class="bg-brand-dark-800 rounded-lg border border-gray-700/50 overflow-hidden">
                         <button class="faq-toggle flex justify-between items-center w-full p-6 text-left focus:outline-none">
                             <span class="text-lg font-semibold text-white">Quais formas de pagamento vocês aceitam?</span>
@@ -748,7 +744,7 @@ Trabalhamos exclusivamente com produtos premium, reconhecidos e líderes no merc
             </div>
         </section>
 
-        <!-- Localização Section -->
+        
         <section id="localizacao" class="py-20 lg:py-32 bg-brand-dark-900 bg-grid-pattern">
             <div class="container mx-auto px-6">
                 <div class="grid md:grid-cols-2 gap-12 items-center">
@@ -815,7 +811,7 @@ Trabalhamos exclusivamente com produtos premium, reconhecidos e líderes no merc
             </div>
         </section>
 
-        <!-- Contato Section -->
+       
         <section id="contato" class="py-20 lg:py-32 bg-blue-600 text-white">
             <div class="container mx-auto px-6 text-center">
                 <div class="max-w-3xl mx-auto fade-in-element">
@@ -832,20 +828,20 @@ Trabalhamos exclusivamente com produtos premium, reconhecidos e líderes no merc
             </div>
         </section>
 
-        <!-- WhatsApp Floating Button -->
+     
         <a href="https://api.whatsapp.com/send?phone=5511963645858&text=Olá!%20Vi%20o%20site%20e%20gostaria%20de%20um%20orçamento." target="_blank" id="whatsapp-fab" aria-label="Fale conosco pelo WhatsApp"
-           class="bg-whatsapp-green text-white w-14 h-14 md:w-16 md:h-16 rounded-full flex items-center justify-center shadow-lg animate-pulse fixed bottom-6 right-6 z-50">
+           class="bg-whatsapp-green text-white w-14 h-14 md:w-16 md:h-16 rounded-full flex items-center justify-center shadow-lg animate-pulse">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.61 15.36 3.48 16.84L2 22L7.3 20.58C8.7 21.37 10.33 21.8 12.04 21.8H12.05C17.5 21.8 21.95 17.35 21.95 11.9C21.95 6.45 17.5 2 12.04 2M12.05 3.67C16.6 3.67 20.28 7.37 20.28 11.91C20.28 16.45 16.6 20.13 12.05 20.13H12.04C10.56 20.13 9.12 19.74 7.84 19L7.09 18.55L3.76 19.33L4.57 16.14L4.1 15.35C3.2 13.98 2.78 12.47 2.78 10.9C2.78 7.37 6.48 3.67 12.05 3.67M17.36 14.83C17.11 15.45 16.08 15.96 15.18 16.08C14.78 16.13 14.33 16.2 12.61 15.52C10.41 14.6 8.91 12.73 8.71 12.48C8.5 12.23 7.4 10.92 7.4 9.61C7.4 8.3 8.18 7.55 8.43 7.3C8.68 7.05 9.03 7 9.3 7H9.73C9.9 7 10.09 7.04 10.26 7.38C10.44 7.72 10.96 9.03 11.06 9.18C11.16 9.33 11.21 9.5 11.11 9.7C11.01 9.9 10.93 10 10.83 10.13C10.73 10.25 10.63 10.35 10.5 10.5C10.38 10.63 10.28 10.75 10.43 10.95C10.58 11.15 11.18 12.03 12.01 12.78C13.06 13.73 13.91 14.04 14.16 14.16C14.41 14.28 14.58 14.23 14.73 14.08C14.93 13.88 15.15 13.58 15.38 13.33C15.6 13.08 15.88 13.03 16.18 13.13C16.48 13.23 17.65 13.78 17.85 13.98C18.05 14.18 18.1 14.36 18.05 14.53C18 14.7 17.61 14.2 17.36 14.83Z"/>
             </svg>
         </a>
     </main>
 
-    <!-- Footer -->
+   
     <footer class="bg-brand-dark-900 py-16 bg-grid-pattern">
         <div class="container mx-auto px-6">
             <div class="grid md:grid-cols-3 gap-8">
-                <!-- Brand Info -->
+                
                 <div>
                     <a href="#" aria-label="GJ Estética Automotiva Home">
                          <img src="https://i.ibb.co/PZ3n4y9K/logo-gj.png" alt="GJ Estética Automotiva Logo" class="h-12 w-auto logo-glow"
@@ -867,7 +863,6 @@ Trabalhamos exclusivamente com produtos premium, reconhecidos e líderes no merc
                     </div>
                 </div>
 
-                <!-- Quick Links -->
                 <div>
                     <h4 class="text-xl font-semibold text-white mb-4">Links Rápidos</h4>
                     <ul class="space-y-3">
@@ -882,7 +877,6 @@ Trabalhamos exclusivamente com produtos premium, reconhecidos e líderes no merc
                     </ul>
                 </div>
 
-                <!-- Contact Info -->
                 <div>
                     <h4 class="text-xl font-semibold text-white mb-4">Entre em Contato</h4>
                     <ul class="space-y-3 text-gray-400">
@@ -909,7 +903,7 @@ Trabalhamos exclusivamente com produtos premium, reconhecidos e líderes no merc
         </div>
     </footer>
     
-    <!-- Script Principal -->
+    
     <script src="script.js"></script>
 
 </body>
